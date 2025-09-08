@@ -22,6 +22,7 @@ function drawElement(counter) {
       for (let y = 0; y < fields; y++) {
         push();
         noStroke();
+        // 0.5 so only 50 % of the square is colored
         if (Math.random() < 0.5) { 
           const randomColor = random(pinkTones);
           fill(randomColor);
@@ -31,11 +32,10 @@ function drawElement(counter) {
       }
     }
     pop();
-}
-  
+}  
 
 function draw() {
-  background(64, 64, 64);
+  background(0, 0, 64);
   noFill();
   stroke(0, 0, 0);
   strokeWeight(1);
