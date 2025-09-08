@@ -16,12 +16,12 @@
   },
   {
     "file": "experiments/grid_example1.js",
-    "name": "Pixelgrid",
+    "name": "Pixelparty",
     "description": "For this Porject I took an example from the lecture 'Grid in a grid'. My intentions where to animate the grid and give it some color. I chose three different colors and made sure i stay under the 50% coloring. This way only 50% of a square a colored and the rest is white. The process was easy because I already had most of the code and just had to add a color array and animate it."
   },
   {
     "file": "experiments/grid_example2.js",
-    "name": "Moving Mountains",
-    "description": "This project is based of the Perlin Noise as well and an extention of the fist example. Since I was playing aroung with the Value I found different variations of the noise and came to the conclusion that i wanted to create a mountain landscape. Moving aswell. I changed the color a bit and also the values when the layers where generated. To understand what changed, I added comments behind every important line of code. That way everyone can understand what the values do."
+    "name": "Hover Disco",
+    "description": "In this example you can hover over each square and it colours in random colors. I wanted to make an interactive example. I wanted to keep it relativly simple so I took the code from the previous example and just added the components that where needed to make it interactive. "
   }
 ]
