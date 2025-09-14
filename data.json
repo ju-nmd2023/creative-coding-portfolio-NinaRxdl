@@ -23,5 +23,10 @@
     "file": "experiments/grid_example2.js",
     "name": "Hover Disco",
     "description": "In this example you can hover over each square and it colours in random colors. I wanted to make an interactive example. I wanted to keep it relativly simple so I took the code from the previous example and just added the components that where needed to make it interactive. "
+  },
+  {
+    "file": "experiments/spiral.js",
+    "name": "Spiral",
+    "description": "This art piece visualizes a dynamic field of lines traced by a swarm of virtual “agents.” Each agent is followingo an invisible flow field in a circular pattern around the center. The code is pretty similar to the example we had in the lecture about flow fields. The only thing I changed, was the colour of each agent and how the field is generated. The process of this piece wasn't too cimplicated. The only tricky part was using the PI function and make the agents move in a circle."
   }
 ]
