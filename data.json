@@ -28,5 +28,10 @@
     "file": "experiments/spiral.js",
     "name": "Spiral",
     "description": "This art piece visualizes a dynamic field of lines traced by a swarm of virtual “agents.” Each agent is followingo an invisible flow field in a circular pattern around the center. The code is pretty similar to the example we had in the lecture about flow fields. The only thing I changed, was the colour of each agent and how the field is generated. The process of this piece wasn't too cimplicated. The only tricky part was using the PI function and make the agents move in a circle."
+  }, 
+  {
+    "file": "experiments/flowerfield.js",
+    "name": "Flowerfield",
+    "description": "This piece represents a field of flowers. I began by creating a simple field of vertical lines going up from the bottom, symbolizing grass.I added flowers made of ellipses, experimenting with their rotation until I achieved a design I liked. The colors and positions of the flowers are randomized, as are the positions of the leaves. For the flower design, I drew some inspiration from the live-coding flower example we had in class. "
   }
 ]
