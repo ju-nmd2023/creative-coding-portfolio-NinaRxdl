@@ -1,3 +1,60 @@
+let song;
+let effectsOn = true;
+let musicPlaying = true;
+let chorus, pitchShift, delay, reverb;
+
+const button = document.createElement("button");
+button.textContent = "sound effects off";
+document.body.appendChild(button);
+
+button.style.position = "fixed";
+button.style.top = "50%";     
+button.style.left = "1%";        
+button.style.transform = "translateY(-50%)";
+button.style.padding = "2px 10px";
+button.style.fontSize = "16px";
+button.style.zIndex = "1000";
+
+window.addEventListener("load", () => {
+  reverb = new Tone.Reverb({
+    decay: 20,
+    preDelay: 0.2,
+    wet: 0.5
+  }).toDestination();
+
+  chorus = new Tone.Chorus(0.2, 2.5, 0.3).start();
+
+  pitchShift = new Tone.PitchShift({ pitch: 2, windowSize: 0.1 });
+
+  delay = new Tone.FeedbackDelay("8n", 0.2);
+
+  song = new Tone.Player({
+    url: "assets/music/flower-dance.mp3",
+    autostart: true,
+    onload: () => console.log("Song geladen und spielt jetzt!")
+  });
+
+  song.connect(chorus);
+  chorus.connect(pitchShift);
+  pitchShift.connect(delay);
+  delay.connect(reverb);
+});
+
+button.addEventListener("click", () => {
+  if (!song) return;
+  if (effectsOn) {
+    song.disconnect();
+    song.connect(Tone.Destination);
+    effectsOn = false;
+    button.textContent = "sound effects on";
+  } else {
+    song.disconnect();
+    song.connect(chorus);
+    effectsOn = true;
+    button.textContent = "sound effects off";
+  }
+});
+
 class Agent {
     constructor(x, y, maxSpeed, maxForce) {
       this.position = createVector(x, y);
