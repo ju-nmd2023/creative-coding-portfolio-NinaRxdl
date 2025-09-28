@@ -33,5 +33,10 @@
     "file": "experiments/flowerfield.js",
     "name": "Flowerfield",
     "description": "This piece represents a field of flowers. I began by creating a simple field of vertical lines going up from the bottom, symbolizing grass.I added flowers made of ellipses, experimenting with their rotation until I achieved a design I liked. The colors and positions of the flowers are randomized, as are the positions of the leaves. For the flower design, I drew some inspiration from the live-coding flower example we had in class. "
+  },
+  {
+    "file": "experiments/honmoon.js",
+    "name": "Honmoon - Kp Demon Hunters",
+    "description": "This piece of art is inspired by the so called 'Honmoon' from the movie 'KP Demon Hunters'. By using Perlin Noise I shaped simple lines into a wave-like form to recreate the look of it. It was very difficult to achieve this kind of look and I had to experiment a lot with values and colors. Since I am a big fan of the movie I wanted it to be 'perfect' and put a lot of effort into this project. I am very happy with the result and the music in the background makes it even better."
   }
 ]
