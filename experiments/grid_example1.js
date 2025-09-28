@@ -1,3 +1,6 @@
+// this experiment is based of the example we had in lecture
+// the only difference here is, that it is animated and the colors change within an array of pinktones
+
 const size = 20;
 const gap = 20;
 const amount = 16;

@@ -1,3 +1,7 @@
+// this experiment is based of the example we had in lecture 'grid in a grid#
+// you can see white cubes rotating in a square. You are able to color the grid based of the mouse position
+// so whichever grid the mouse is on, it will change from white to a randomised colorpalette 
+
 const size = 40;
 const gap = 40;
 const amount = 16;
@@ -5,7 +9,7 @@ let grid = [];
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
-  frameRate(3);
+  frameRate(1);
 
   for (let x = 0; x < amount; x++) {
     grid[x] = [];
