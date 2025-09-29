@@ -6,37 +6,42 @@
   },
   {
     "file": "experiments/noise_example1.js",
-    "name": "Moving Landscape",
-    "description": "This experiment is based of the Perlin Noise Example from the lecture(slide 36). I really liked the look of it, so I expirimented with it. What I wanted to do is, to add some movement to the landscape. Now every single layer of the landscape is moving differently due to the offset. The coding process wasnt very complicated because some parts were already there from the example. I was chaching values and the look of the landscape which brought me to my second noise example."
+    "name": "Moving landscape",
+    "description": "This experiment is based of the Perlin Noise Example from the lecture (slide 36). I really liked the look of it, so I experimented with it. What I wanted to do is, to add some movement to the landscape. Now every single layer of the landscape is moving differently due to the offset. The coding process wasn't very complicated because some parts were already existing from the example. I was changing values and the look of the landscape which brought me to my second noise experiment."
   },
   {
     "file": "experiments/noise_example2.js",
-    "name": "Moving Mountains",
-    "description": "This experiment is based of the Perlin Noise as well and an extention of the fist example. Since I was playing aroung with the value, I found different variations of the noise and came to the conclusion that I wanted to create a mountain landscape. Moving aswell. I changed the color a bit and also the values when the layers where generated. To understand what changed, I added comments behind every important line of code. That way everyone can understand what the values do."
+    "name": "Moving mountains",
+    "description": "This experiment is based of the Perlin Noise as well and an extention of the fist example 'Moving landscape'. Since I was playing aroung with the value, I found different variations of the noise and came to the conclusion that I wanted to create a mountain landscape. I changed the color and the values when the layers were generated. To understand what changed, I added comments behind the important lines of code."
   },
   {
     "file": "experiments/grid_example1.js",
     "name": "Pixelparty",
-    "description": "For this experiment I took an example from the lecture 'Grid in a grid'. My intentions was to animate the grid and give it some color. I chose three different colors and made sure i stay under the 50% coloring. This way only 50% of a square a colored and the rest is white. The process was easy because I already had most of the code and just had to add a color array and animate it."
+    "description": "For this experiment I took an example from the lecture 'Grid in a grid'. My intention was to animate the grid and give it some color. I chose three different colors and made sure I stay under the 50% coloring. This way only 50% of a square are colored. The process was easy because I already had most of the code and just had to add a color array and animate it."
   },
   {
     "file": "experiments/grid_example2.js",
-    "name": "Hover Disco",
-    "description": "In this experiment you can hover over each square and they change into random colors. I wanted to make an interactive experiment. I wanted to keep it relativly simple so I took the code from the previous example and just added the components that where needed to make it interactive. "
+    "name": "Hover disco",
+    "description": "In this experiment you can hover over each square and change them into random colors. I wanted to make an interactive experiment. To keep it relativly simple, I took the code from the previous example and just added the components that where needed to make it interactive. I didn't have a lot of trouble creating this experiment because I have based myself a lot on the other examples."
   },
   {
     "file": "experiments/spiral.js",
     "name": "Spiral",
-    "description": "This art piece visualizes a dynamic field of lines traced by a swarm of virtual “agents.” Each agent is following an invisible flow field in a circular pattern around the center. The code is pretty similar to the example we had in the lecture about flow fields. The only thing I changed, was the colour of each agent and how the field is generated. The process of this piece wasn't too complicated. The only tricky part was using the PI function and make the agents move in a circle."
+    "description": "This art piece visualizes a dynamic field of lines traced by a swarm of virtual “agents.” Each agent is following an invisible flow field in a circular pattern around the center. The code is pretty similar to the example we had in the lecture about flow fields. The only thing I changed, was the color of each agent and how the field is generated. The process of this piece wasn't too difficult. The only tricky part was using the PI function and make the agents move in a circle."
+  },
+  {
+    "file": "experiments/flowfield.js",
+    "name": "Interactive Flowfield",
+    "description": "I created an interactive experiment where the flow field follows the position of the mouse. To prevent the agents from merging into a single line, I added a function which is seperarting them so they keep a certain distance from each other. This experiment is connected to the flowfield example in lecture and the live coding example. The most tricky part for me was seperating the agents but after some time I managed to make it work."
   }, 
   {
     "file": "experiments/flowerfield.js",
     "name": "Flowerfield",
-    "description": "This experiment represents a field of flowers. I began by creating a simple field of vertical lines going up from the bottom, symbolizing grass.I added flowers made of ellipses, experimenting with their rotation until I achieved a design I liked. The colors and positions of the flowers are randomized, so are the positions of the leaves. For the flower design, I drew some inspiration from the live-coding flower example we had in class. "
+    "description": "This experiment represents a field of flowers. I began by creating a simple field of vertical lines going up from the bottom, symbolizing grass. I added flowers made of ellipses, experimenting with their rotation until I achieved a design I liked. The colors and positions of the flowers are randomized, so are the positions of the leaves. For the flower design, I drew some inspiration from the live-coding flower example we had in class. I also added a simple mp3-song and added some reverb, pitchshift and delay."
   },
   {
     "file": "experiments/honmoon.js",
     "name": "Honmoon - Kp Demon Hunters",
-    "description": "This piece of art is inspired by the so called 'Honmoon' from the movie 'KP Demon Hunters'. By using Perlin Noise I shaped simple lines into a wave-like form to recreate the look of it. It was very difficult to achieve this kind of look and I had to experiment a lot with values and colors. Since I am a big fan of the movie I wanted it to be 'perfect' and put a lot of effort into this project. I am very happy with the result and the music in the background makes it even better."
+    "description": "This piece of art is inspired by the so called 'Honmoon' from the movie 'KP Demon Hunters'. By using Perlin Noise I shaped simple lines into a wave-like form to recreate the look of it. It was very difficult to achieve this kind of look and I had to experiment a lot with values and colors. Since I am a big fan of the movie I wanted it to be 'perfect' and put a lot of effort into this experiment. I am very happy with the result and the music in the background makes it even better."
   }
 ]

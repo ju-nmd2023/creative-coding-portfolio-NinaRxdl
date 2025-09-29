@@ -1,5 +1,5 @@
-// In this porject I had to refer a lot to the P5.js documentation. Especialy when it came to the noise and mixing the colors together. 
-// I really wanted to recreate the 'Honmoon' from Kp Demon Hunters and put a lot of time and effort into this. 
+// In this project I had to refer a lot to the P5.js documentation. Especially when it came to the noise and mixing the colors together. 
+// I really wanted to recreate the 'Honmoon' from the movie 'Kp Demon Hunters' and put a lot of time and effort into this. 
 // I had trouble creating the waves and giving it the look that I wanted. After a lot of trying and playing with values I achieved a result I was happy with.
 
 let song;
@@ -29,6 +29,7 @@ function draw() {
     const yBase = (j + 1) * (height / (numLines + 1));
 
     for (let x = 0; x < width; x += step) {
+      // two waves to have a start and end point 
       const wave1 = noise(x * 0.002, counter + j * 0.1) * 2 - 1;
       const wave2 = noise((x + step) * 0.002, counter + j * 0.1) * 2 - 1;
 
@@ -40,6 +41,7 @@ function draw() {
       let colour;
 
       if (t < 0.5) {
+        // lerpColor blends two colors 
         colour = lerpColor(Turquoise, Gold, t * 2);
       } else {
         colour = lerpColor(Gold, Pink, (t - 0.5) * 3);

@@ -1,6 +1,3 @@
-// this experiment is based of the example we had in lecture
-// the only difference here is, that it is animated and the colors change within an array of pinktones
-
 const size = 20;
 const gap = 20;
 const amount = 16;
@@ -25,7 +22,6 @@ function drawElement(counter) {
       for (let y = 0; y < fields; y++) {
         push();
         noStroke();
-        // 0.5 so only 50 % of the square is colored
         if (Math.random() < 0.5) { 
           const randomColor = random(pinkTones);
           fill(randomColor);

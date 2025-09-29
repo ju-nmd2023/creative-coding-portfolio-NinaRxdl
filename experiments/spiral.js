@@ -79,6 +79,7 @@ function generateField() {
       let pos = createVector(x * fieldSize, y * fieldSize);
 
       let dir = p5.Vector.sub(pos, center);
+      // I wasn’t sure how to calculate the circular flow, so I used ChatGPT for help. I am not the best in mathematics :(
       dir.rotate(HALF_PI);
       
       field[x].push(dir);

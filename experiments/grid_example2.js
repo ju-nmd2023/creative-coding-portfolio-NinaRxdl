@@ -1,7 +1,3 @@
-// this experiment is based of the example we had in lecture 'grid in a grid#
-// you can see white cubes rotating in a square. You are able to color the grid based of the mouse position
-// so whichever grid the mouse is on, it will change from white to a randomised colorpalette 
-
 const size = 40;
 const gap = 40;
 const amount = 16;
