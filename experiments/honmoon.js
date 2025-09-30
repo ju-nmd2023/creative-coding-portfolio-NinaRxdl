@@ -19,7 +19,6 @@ let counter = 0;
 
 function draw() {
   background(10, 20, 50);
-  noFill();
 
   let Turquoise = color(0, 200, 255, 255);
   let Gold = color(212, 175, 55, 255);

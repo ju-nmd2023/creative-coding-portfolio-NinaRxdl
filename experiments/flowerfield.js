@@ -139,7 +139,7 @@ class Agent {
     for (let x = 0; x < maxCols; x++) {
       field.push([]);
       for (let y = 0; y < maxRows; y++) {
-        // I used ChatGPT to get this calculation working
+        // I used ChatGPT to get this calculation working and so the lines move up
         const angle = -HALF_PI + (noise(x / 10, y / 10) - 0.5) * PI / 3;
         field[x].push(p5.Vector.fromAngle(angle));
       }

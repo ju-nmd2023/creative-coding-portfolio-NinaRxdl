@@ -5,7 +5,7 @@ let grid = [];
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
-  frameRate(1);
+  frameRate(3); 
 
   for (let x = 0; x < amount; x++) {
     grid[x] = [];
